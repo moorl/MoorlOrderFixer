@@ -1,0 +1,37 @@
+{
+    "name": "moorl/order-fixer",
+    "description": "Customer Number Fixer",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "moori"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "MoorlOrderFixer\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "MoorlOrderFixer\\MoorlOrderFixer",
+        "copyright": "(c) by moori",
+        "label": {
+            "de-DE": "Order Fixer",
+            "en-GB": "Order Fixer"
+        },
+        "description": {
+            "de-DE": "Order Fixer",
+            "en-GB": "Order Fixer"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://docs.moori.net/",
+            "en-GB": "https://docs.moori.net/"
+        },
+        "supportLink": {
+            "de-DE": "https://docs.moori.net/",
+            "en-GB": "https://docs.moori.net/"
+        }
+    }
+}
